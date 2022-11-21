@@ -1,9 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-  </head>
-  <body></body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Login</title>
+	<link rel="shortcut icon" href="../public/icons/favicon.png" type="image/png">
+	<link rel="stylesheet" href="../public/style/style_login.css">
+</head>
+
+<body>
+	<div id="app">
+		<header class="header">
+			<div class="logo-wrapper">
+				<img src="../public/icons/favicon_1.png" alt="Something wrong" class="logo">
+			</div>
+			<nav class="nav">
+				<a href="../../index.html" class="header__route"><img src="../public/icons/home.png"
+						class="header__route_img" alt="">
+				</a>
+			</nav>
+		</header>
+		<main class="main">
+			<script src="https://kit.fontawesome.com/449ccfec5b.js" crossorigin="anonymous"></script>
+			<form action="post" class="form__login">
+				<p class="field">
+					<input type="text" name="login" placeholder="Login or email">
+					<i class="fa-solid fa-user"></i>
+				</p>
+				<p class="field">
+					<input type="password" name="password" placeholder="Password">
+					<i class="fa-solid fa-lock"></i>
+				</p>
+				<p class="submit">
+					<button type="submit" name="submit"><i class="fa-solid fa-arrow-right"></i></button>
+				</p>
+			</form>
+
+
+		</main>
+		<footer class="footer">
+			<h3 class="footer__title">All rights reserved (c) 2022</h3>
+		</footer>
+	</div>
+</body>
+
 </html>
